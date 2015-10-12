@@ -52,7 +52,7 @@ Creamos la imagen del SO a partir del sistema real. Normalmente se crea de 64 bi
 Una vez creada la imagen del SO, creamos una máquina cliente sin disco duro y sin lector de CD, sólo deberá tener
 disquetera y tarjeta de red en modo "red interna".
 
-![cliente](./images/cliente.png "cliente")
+![cliente](./images/cliente.PNG "cliente")
 
 Con el servidor iniciado, iniciamos el cliente y pulsamos F12 nada más arrancar la máquina y pulsamos L para cargar el SO
 desde la red.
