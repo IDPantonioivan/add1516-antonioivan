@@ -1,4 +1,4 @@
-Servidor LTSP y clientes ligeros
+#Servidor LTSP y clientes ligeros
 
 Un cliente liegro (thin client o slim client en inglés) es una computadora cliente o un software de cliente en una arquitectura de red cliente-servidor que depende primariamente del servidor central para las tareas de procesamiento, y se enfoca principalmente en transportar la entrada y la salida entre el usuario y el servidor remoto. En contraste, un cliente pesado realiza tanto procesamiento como sea posible y transmite solamente los datos para las comunicaciones y el almacenamiento al servidor.
 
