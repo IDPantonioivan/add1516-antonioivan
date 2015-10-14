@@ -10,5 +10,5 @@ userlist.each do
 
 end
 
-puts "Eliminados los usuarios"
+puts "Borrados los usuarios"
 
