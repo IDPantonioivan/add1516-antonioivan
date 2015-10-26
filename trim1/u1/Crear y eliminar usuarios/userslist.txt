@@ -1,0 +1,7 @@
+manolo:gonzalez:manolo@hotmail.com:10-05-1998:delete
+pepe:garcia:pepe@hotmail.com:12-07-1988:add
+juan:lopez:juan@hotmail.com:05-05-2000:delete
+luis:alvarez::02-03-2002:add
+
+
+
