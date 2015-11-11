@@ -4,15 +4,19 @@ En primer lugar, preparamos todas las máquinas según las indicaciones del prof
 
 Algunos datos de la configuración del servidor:
 
-ip a               (IP y máscara)
+ip a
 ![](./images/1.png)
-route -n           (Puerta de enlace)
+
+route -n
 ![](./images/2.png)
-host www.google.es (Servidor DNS)
+
+host www.google.es
 ![](./images/3.png)
-lsblk              (Particiones)
+
+lsblk
 ![](./images/4.png)
-blkid              (UUID de la instalación)
+
+blkid
 ![](./images/5.png)
 
 * Antes de comenzar, creamos en el servidor los siguientes usuarios en ssh-server:
