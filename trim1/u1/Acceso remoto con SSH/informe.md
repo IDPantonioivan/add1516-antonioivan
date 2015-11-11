@@ -5,18 +5,23 @@ En primer lugar, preparamos todas las máquinas según las indicaciones del prof
 Algunos datos de la configuración del servidor:
 
 ip a
+
 ![](./images/1.png)
 
 route -n
+
 ![](./images/2.png)
 
 host www.google.es
+
 ![](./images/3.png)
 
 lsblk
+
 ![](./images/4.png)
 
 blkid
+
 ![](./images/5.png)
 
 * Antes de comenzar, creamos en el servidor los siguientes usuarios en ssh-server:
