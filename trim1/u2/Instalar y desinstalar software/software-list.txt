@@ -1,0 +1,6 @@
+geany:i
+apache2:remove
+leafpad:install
+nano:r
+
+
