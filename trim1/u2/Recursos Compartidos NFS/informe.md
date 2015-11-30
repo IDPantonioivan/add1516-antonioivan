@@ -213,8 +213,12 @@ No nos ha dejado acceder pero si monta los recursos
 
 - ¿Nuestro cliente Windows NFS podría acceder al servidor GNU/Linux NFS? Comprobarlo.
 
+No se puede, da el siguiente error al intentar montar las carpetas.
+
 ![](./imagenes/pregunta2.png)
 
 -  Fijarse en los valores de usuarios propietario y grupo propietario de los ficheros que se guardan en el servidor, cuando los creamos desde una conexión cliente NFS.
+
+En Windows, a pesar de montarse los recursos perfectamente, no deja acceder al recurso compartido.
 
 ![](./imagenes/pregunta3.png)
