@@ -72,6 +72,8 @@ Comprobar también que el servicio se inicia automáticamente al reiniciar la m�
 de la base de datos LDAP usando la herramienta `gq`. Esta herramienta es un browser LDAP.
 * Comprobar que ya tenemos las unidades organizativas: `groups` y `people`.
 
+![](./images/ou.png)
+
 ##1.3. Crear usuarios y grupos en LDAP
 Ahora vamos a [introducir datos de usuarios y grupos](https://es.opensuse.org/Ingreso_de_usuarios_y_grupos_en_LDAP_usando_YaST)
 en el servidor LDAP siguiendo los pasos indicados en el enlace, pero personalizado la información de la siguiente
