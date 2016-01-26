@@ -24,16 +24,27 @@ Para que el comando `hostname` funcione bien.
 Capturar imágen de la configuración del equipo:
 
     uname -a
+    
 ![](./images/unamea.png)
+
     hostname -a
+    
 ![](./images/hostnamea.png)
+
     hostname -d
+    
 ![](./images/hostnamed.png)
+
     ip a
+    
 ![](./images/ipa.png)
+
     route -n
+    
 ![](./images/rounten.png)
+
     blkid
+    
 ![](./images/blkid.png)
 
 ##1.2 Tarea diferida
@@ -41,8 +52,8 @@ Capturar imágen de la configuración del equipo:
 Vamos a programar una tarea diferida con el comando at y el comando shutdown que reiniciará el equipo.
 
 Primero usamos el comanto at para un momento concreto (en el ejemplo para dentro de un minuto). Luego se ledan las instrucciones a at para que ejecute los comandos solicitados, en este caso shutdown. En este caso el equipo se reiniciará en 1 minuto.
-![](./images/17.png)
 
+![](./images/17.png)
 
 > * Si el servicio `atd` (responsable de la ejecución de los comandos at) no estuviera
 en ejecución en OpenSUSE, iremos a `Yast -> Servicios` y lo iniciamos.
