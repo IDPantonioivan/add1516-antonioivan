@@ -397,7 +397,7 @@ Enlace de interés:
 
 * Ahora vamos a modificar el fichero `site.pp` del master, para que tenga en cuenta la configuración de clientes GNU/Linux y clientes Windows, de la siguiente forma:
 
-![](./images/34.png)
+![](./images/342.png)
 
 * Reiniciamos el servicio PuppetMaster.
 
@@ -458,7 +458,7 @@ el fichero puppet del master para la máquina Windows.
 
     * `puppet agent --server master30.vargas --test`: Comprobar el estado del agente puppet.
 
-![](./images/41.png)
+![](./images/412.png)
 
     * `puppet agent -t --debug --verbose`: Comprobar el estado del agente puppet.
 
