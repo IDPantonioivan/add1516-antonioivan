@@ -482,11 +482,22 @@ para el cliente Windows:
 
 ![](./images/46.png)
 
-#¡PROBLEMAS ENCONTRADOS!
+Reiniciamos y comprobamos que se han creado los dos nuevos usuarios:
 
-A partir de aquí no he podido continuar la práctica, pues no se me han creado los usuarios en la máquina cliente Windows 7. Ni en clase con la ayuda del profesor ni en casa he podido solucionarlo. He probado las recomendaciones de Héctor Pedraza y no han dado resultado. Como se aprecia en las capturas de la consola puppet (iniciada como administrador), me da bastantes errores.
-
+![](./images/usuarios.png)
 
 * Crear un nuevo fichero de configuración para la máquina cliente Windows.
+
 Nombrar el fichero con `/etc/puppet/manifests/classes/hostwindows4.pp`.
+
 Incluir configuraciones elegidas por el alumno.
+
+![](./images/hostwindows4.png)
+
+También tenemos que modificar el archivo site.pp:
+
+![](./images/site.png)
+
+Y después de reiniciar comprobamos que tenemos dos usuarios más:
+
+![](./images/usuarios2.png)
