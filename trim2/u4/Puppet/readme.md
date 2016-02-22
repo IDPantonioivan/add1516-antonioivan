@@ -216,11 +216,9 @@ descargar por el resto de máquinas puppet.
 * `/etc/puppet/manifests/site.pp` es el fichero principal de configuración 
 de órdenes para los agentes/nodos puppet.
 * Contenido de nuestro `site.pp`:
-```
 
 ![](./images/9.png)
 
-```
 > Esta configuración significa:
 > * Todos los ficheros de configuración del directorio classes se añadirán a este fichero.
 > * Todos los nodos/clientes van a usar la configuración `hostlinux1`.
@@ -232,7 +230,7 @@ organizarnos mejor, y las vamos a guardar en la ruta `/etc/puppet/manifests/clas
 
 *Vamos a crear una primera configuración para máquina estándar GNU/Linux.
 * Contenido para `/etc/puppet/manifiests/classes/hostlinux1.pp`:
-```
+
 ![](./images/10.png)
 
 >**OJO**: La ruta del fichero es `/etc/puppet/manifests/classes/hostlinux1.pp`.
@@ -250,7 +248,6 @@ organizarnos mejor, y las vamos a guardar en la ruta `/etc/puppet/manifests/clas
 `systemctl status puppetmaster`
 
 ![](./images/13.png)
-
 
 `netstat -ntap`
 
@@ -313,9 +310,7 @@ ambas máquinas. Esto sólo hay que hacerlo una vez.
 
 * Vamos al master y consultamos las peticiones pendiente de unión al master: `puppet cert list`
 
-
 ![](./images/26.png)
-
 
 > **En caso de no aparecer el certificado en espera*
 >
